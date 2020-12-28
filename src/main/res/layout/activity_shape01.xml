@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shape01Activity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/category_triangle_shape1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="5"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:fontFamily="cursive"
+                android:text="加了虚线描边的矩形"
+                android:background="@drawable/bg_rectangle_with_stroke_dash"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:minLines="5"
+                android:lineHeight="25dp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:fontFamily="cursive"
+                android:text="渐变效果圆形"
+                android:background="@drawable/bg_oval_with_gradient"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="一条线"
+                android:background="@drawable/line"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="渐变环"
+                    android:background="@drawable/ring01"/>
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:text="渐颜色变环02"
+                    android:background="@drawable/ring02"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
